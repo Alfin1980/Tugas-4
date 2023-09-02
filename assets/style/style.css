@@ -1,0 +1,112 @@
+body{
+   font-family: poppins,sans-serif; 
+}
+.nav .container{
+   display: flex;
+}
+
+.nav{
+    margin-top: 58px;
+}
+.container{
+   width: 1140px;
+   margin: 0 auto;
+}
+
+.nav .brand,
+.nav .ctas {
+ width: 20%;
+}
+
+.nav .menu{
+    width: 60%;
+}
+.nav .menu-item{
+    color: #000;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.nav .menu-item:hover {
+    opacity: 1;
+    border-bottom: 1px solid #000;
+    font-weight: 600;
+}
+
+.nav .menu-item-active{
+    opacity: 1;
+    font-weight: 600;
+}
+.nav .menu {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 50px;
+}
+.nav .brand{
+    font-size: 22px;
+    font-weight: 600;
+}
+.nav .ctas {
+  text-align: right;
+}
+
+.nav .sign-up{
+  padding: 10px 25px;
+  border: 1px solid rgba(0, 0, 0, .2);
+  border-radius: 5px;
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+}
+
+.hero{
+    display: flex;
+    text-align: center;
+    padding: 135px 0;
+    flex-direction: column;
+    gap: 40px;
+    width: 653px;
+    margin: 0 auto;
+}
+
+.hero-headline,
+.hero-subheadline {
+    text-align: center;
+    margin: 0;
+}
+
+.hero-headline{
+    line-height: 40px;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.hero-subheadline {
+    font-size: 16px;
+    line-height: 32px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.cta-primary,
+.cta-seccondary {
+    padding: 12px 17px;
+    display: inline-block;
+    font-weight: 600;
+}
+
+.cta-primary {
+    display: inline-block;
+    background-color: #001aff;
+    color: #ffff;
+    border-radius: 100px;
+    padding: 12px 17px;
+    text-decoration: none;
+    box-shadow: 0px 15px 30px rgba(0, 26, 255, 0.2);
+}
+
+.cta-seccondary {
+    padding: 20px;
+    color: #001aff;
+ 
+}
